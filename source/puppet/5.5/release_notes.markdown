@@ -26,11 +26,11 @@ Released 16 July 2019
 
 This is a bug-fix and new feature release.
 
-## New Feature
+## New features
 
 Previously, using config print to view your server_list would output a nested array that was difficult to read. Using config print now outputs the text in the same human-readable format as its entry in puppet.conf. Puppetnow uses the same human-readable output for errors you receive from being unable to connect to a server in server_list. [PUP-9495](https://tickets.puppetlabs.com/browse/PUP-9495)
 
-## Resolved Issues
+## Resolved issues
 
 - This release fixes an issue where trying to remove a user resource on a Solaris 11 installation using a home directory configuration resulted in an error. [PUP-9706](https://tickets.puppetlabs.com/browse/PUP-9706)
   
